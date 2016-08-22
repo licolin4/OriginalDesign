@@ -5,6 +5,8 @@ void setup()
 void draw()
 {
   background(50,100,150);
+  fill(150,180,0);
+  rect(100,20,300,300);
   fill(255,0,0);
   ellipse(180,100,50,50);
   fill(190,0,150);
@@ -23,6 +25,14 @@ void draw()
   curveVertex(80,90);
   curveVertex(100,170);
   curveVertex(100,170);
+  endShape();
+  beginShape();
+  curveVertex(350,50);
+  curveVertex(350,50);
+  curveVertex(360,50);
+  curveVertex(380,90);
+  curveVertex(400,170);
+  curveVertex(400,170);
   endShape();
 }
 
