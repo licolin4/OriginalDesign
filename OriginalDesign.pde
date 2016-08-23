@@ -1,11 +1,13 @@
+int x = 0;
 void setup()
 {
   size(500,500);
+  noLoop();
 }
 void draw()
 {
   background(50,100,150);
-  fill(150,180,0);
+  fill(100,180,x);
   rect(100,20,300,300);
   fill(255,0,0);
   ellipse(180,100,50,50);
@@ -17,6 +19,8 @@ void draw()
   rect(240,50,80,20);
   fill(50,20,10);
   triangle(225,150,150,250,300,250);
+  fill(147,112,219);
+  ellipse(330,230,15,15);
   noFill();
   beginShape();
   curveVertex(50,50);
@@ -34,7 +38,13 @@ void draw()
   curveVertex(400,170);
   curveVertex(400,170);
   endShape();
+  x = x + 5;
 }
+void mousePressed()
+{
+	redraw();
+}
+
 
 
 
