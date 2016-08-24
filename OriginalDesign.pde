@@ -38,7 +38,7 @@ void draw()
   curveVertex(400,170);
   curveVertex(400,170);
   endShape();
-  x = x + 5;
+  x = x + 10;
 }
 void mousePressed()
 {
