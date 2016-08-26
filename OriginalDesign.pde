@@ -6,7 +6,7 @@ void setup()
 }
 void draw()
 {
-  background();
+  background(50,100,150);
   fill(51,153,255);
   rect(0,300,600,500);
   fill(100,180,x);
@@ -41,10 +41,6 @@ void draw()
   curveVertex(400,170);
   endShape();
   x = x + 10;
-}
-void background()
-{
-  background(50,100,150);
 }
 void mousePressed()
 {
