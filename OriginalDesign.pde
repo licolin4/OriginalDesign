@@ -6,7 +6,7 @@ void setup()
 }
 void draw()
 {
-  background(50,100,150);
+  background();
   fill(51,153,255);
   rect(0,300,600,500);
   fill(100,180,x);
@@ -45,6 +45,10 @@ void draw()
 void mousePressed()
 {
 	redraw();
+}
+void background()
+{
+  background(50,100,150);
 }
 
 
