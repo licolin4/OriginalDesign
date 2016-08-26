@@ -42,13 +42,13 @@ void draw()
   endShape();
   x = x + 10;
 }
-void mousePressed()
-{
-	redraw();
-}
 void background()
 {
   background(50,100,150);
+}
+void mousePressed()
+{
+	redraw();
 }
 
 
